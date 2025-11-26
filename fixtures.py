@@ -4,4 +4,5 @@ library = [
     {"title": "6G", "author": "Reza", "year": 2022},
 ]
 
-
+def ma():
+    pass
