@@ -1,15 +1,16 @@
 from fixtures import library
 
 def add_book(title: str, author:str, year: str) -> list:
-    """_summary_
+    """we want to get list of library and characteristics and then 
+    add the name, title and year of book that we should be add it.
 
     Args:
-        title (str): _description_
-        author (str): _description_
-        year (str): _description_
+        title (str): class of title is str
+        author (str): class of author is str
+        year (str): class of year is str
 
     Returns:
-        list: _description_
+        list: our output is list that we add to main list in fixtures
     """
     try:
         if isinstance(library or title or author or year, list):
