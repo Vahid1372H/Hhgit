@@ -24,6 +24,14 @@ from fixtures import library
 
 
 def search_book(library: list) -> list:
+        """Created list for show title and author of book that we want to show it
+
+        Args:
+            library (list): list of name of book and name of author
+
+        Returns:
+            list: The output is just list of name and author
+        """
         results = []
         for book in library:
                 results.append((book, "ai"))
